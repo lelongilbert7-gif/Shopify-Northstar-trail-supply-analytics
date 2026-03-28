@@ -147,25 +147,14 @@ At the product level, refund patterns suggest the issue is more likely systemic 
 ---
 
 ## Repository Structure
+> Note: This repository focuses on the core analytical workflow (cleaning, modeling, and analysis) rather than raw data storage.
 
 ```text
-northstar-trail-supply-analytics/
-├─ README.md
-├─ data/
-│  └─ raw/
-├─ docs/
-│  ├─ company_profile.md
-│  ├─ data_dictionary.md
-│  ├─ github_checkpoints.md
-│  └─ project_plan.md
-├─ sql/
-│  ├─ 01_bigquery_upload_guide.md
-│  ├─ 02_staging_cleaning.sql
-│  ├─ 03_data_quality_checks.sql
-│  ├─ 04_marts.sql
-│  ├─ 05_analysis_queries.sql
-│  └─ 06_final_report_queries.sql
-└─ reports/
-   ├─ analysis.md
-   ├─ final_report_template.md
-   └─ sample_final_report.md
+shopify-northstar-trail-supply-analytics/
+├── README.md
+├── reports/
+│   └── analysis.md
+├── sql/
+│   ├── 01_data_cleaning.sql
+│   ├── 02_master_table.sql
+│   └── 03_analysis_queries.sql
